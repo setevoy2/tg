@@ -5,8 +5,6 @@ def ENVIRONMENT="dev"
 def DOCKER_REGISTRY_ID="setevoy"
 def DOCKER_REGISTRY_URL="https://hub.docker.com/"
 def DOCKER_REGISTRY_HOST="hub.docker.com"
-def DOCKER_REGISTRY_USERNAME="reg@setevoy.kiev.ua"
-def DOCKER_REGISTRY_PASSWORD="liBerty911"
 def DOCKER_IMAGE_PATH=""
 def DOCKER_IMAGE_TAG="${ENVIRONMENT}-${env.BUILD_NUMBER}"
 
