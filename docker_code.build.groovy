@@ -16,7 +16,7 @@ node {
 
     docker.image('maven').inside {
 
-        git branch: ${BRANCH}, credentialsId: 'githubSetevoy', url: ${CODE_REPO}
+        git branch: "${BRANCH}", credentialsId: 'githubSetevoy', url: "${CODE_REPO}"
 
         sh 'mvn clean install -DskipDockerBuild'
 
