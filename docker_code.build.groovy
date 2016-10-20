@@ -30,6 +30,4 @@ node {
           -Ddocker.image.tag=\"${DOCKER_IMAGE_TAG}\" \
           -DpushImage"
     }
-
-    }
 }
