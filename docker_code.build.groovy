@@ -27,7 +27,6 @@ node {
                 sh 'mvn clean install -DskipDockerBuild'
 
                 sh "mvn clean package \
-                  -s./maven-settings.xml \
                   -Ddocker.registry.id=${DOCKER_REGISTRY_ID} \
                   -Ddocker.registry.host=${DOCKER_REGISTRY_HOST} \
                   -Ddocker.registry.url=${DOCKER_REGISTRY_URL} \
